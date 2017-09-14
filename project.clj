@@ -3,6 +3,7 @@
   :url "http://github.com/joephayes/lein-ftp-static-deploy"
   :license {:name "The MIT License"
             :url "http://opensource.org/licenses/MIT"}
+  :dependencies [[com.velisco/clj-ftp "0.3.9"]]
   :eval-in-leiningen true
   :scm  {:name  "git"
          :url  "https://github.com/joephayes/lein-ftp-static-deploy"})
