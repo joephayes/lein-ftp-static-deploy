@@ -1,4 +1,4 @@
-(defproject lein-ftp-static-deploy "0.1.0-SNAPSHOT"
+(defproject lein-ftp-static-deploy "0.1.0"
   :description "A Leiningen plugin to deploy a directory as a static website via FTP."
   :url "http://github.com/joephayes/lein-ftp-static-deploy"
   :license {:name "The MIT License"
