@@ -10,7 +10,7 @@ To use lein-ftp-static-deploy, you will need to add a new `ftp` section to you p
 
 Add the following to your `:plugins` vector:
 
-    [lein-ftp-static-deploy "0.1.0-SNAPSHOT"]
+![](https://clojars.org/lein-ftp-static-deploy/latest-version.svg)
 
 ### Environment Variables
 

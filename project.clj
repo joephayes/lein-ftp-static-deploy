@@ -6,4 +6,8 @@
   :dependencies [[com.velisco/clj-ftp "0.3.9"]]
   :eval-in-leiningen true
   :scm  {:name  "git"
-         :url  "https://github.com/joephayes/lein-ftp-static-deploy"})
+         :url  "https://github.com/joephayes/lein-ftp-static-deploy"}
+  :deploy-repositories [["releases" :clojars]
+                        ["snapshots" :clojars]]
+  :repositories [["releases" {:url "[https://clojars.org/repo](https://clojars.org/repo)" :creds :gpg}]
+                 ["snapshots" {:url "[https://clojars.org/repo](https://clojars.org/repo)" :creds :gpg}]])
